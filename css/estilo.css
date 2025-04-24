@@ -1,3 +1,45 @@
 body {
-    background-color: rgb(255, 133, 194);
+    background-color:rgb(112, 162, 219);
+    /*altera cor de fundo*/
+    color:black;
+    /*altera cor do texto do elemento*/
 }
+/*table, tr, td, th {
+    background-color:darkolivegreen;
+    /*border: 1px solid black;*/
+    /*altera 3 propriedades de uma vez*/
+    /*border-color:black;
+    border-width: 2px;
+    border-style:dashed;
+    border-collapse: collapse;
+}
+th {
+    background-color:brown;
+    color: bisque;
+}
+table{
+    width: 30%;
+}*/ 
+
+table {
+    border-collapse: solid;
+    width: 50%;
+  }
+  
+  th, td{
+    text-align: left;
+    padding: 4px;
+  }
+  
+  tr:nth-child(even){background-color: rgb(8, 62, 124)}
+  tr:nth-child(odd){background-color:lightblue;}
+  th {
+    background-color:black;
+    color:beige;
+  }
+  tr:hover{
+    background-color:rgb(78, 7, 7);
+    color:antiquewhite;
+    font-size: 20px ;
+  }
+
