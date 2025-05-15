@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapeamento</title>
-</head>
-<body>
-    <h1>Mapeamento de imagens</h1>
-    <img src="../imagens/formasgeometricas.png" alt="" usemap="#mapa">
-    <map name="mapa">
-        <area shape="" coords="" href="" alt="">
-    </map>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mapeamento</title>
+        <link rel="stylesheet" href="../css/maps.css">
+    </head>
+    <body>
+        <h1 class="backred centralizado">H1 fora da div</h1>
+        <p>Paragráfo fora da div</p>
+        <div id="caca">
+            <h1>H1 dentro da div</h1>
+            <h2>H2 dentro da div</h2>
+            <p>parágrafo 1 dentro da div</p>
+            <p>parágrafo 2 dentro da div</p>
+            <p class="backred">pinkyy</p>
+        </div>
+        
 
-    
-</body>
+
+        <header id="cabecalho">
+            <h1>Mapeamento de imagens</h1>
+            <nav id="menup" class="backred">
+                <ul>
+                    <li>Home</li>
+                    <li>Projetos</li>
+                    <li>Contatos</li>
+                </ul>
+                <p>geralmente o "nav" é o menu.</p>
+            </nav>
+        </header>
+        <main>
+            <section id="noticia">
+                <article class="not">
+                    <p>uso o "id" para configurar algo em específico, e o
+                        "class" para formatar mais coisas.</p>
+                </article>
+                <article class="not">
+
+                </article>
+            </section>
+            <section id="destaque">
+
+            </section>
+
+            <img src="../imagens/geraldinho.jpg" alt usemap="#geraldo">
+            <map name="geraldo">
+                <area shape="circle" coords="84,215,45"
+                    href="https://brasilescola.uol.com.br/o-que-e/matematica/o-que-e-circulo.htm"
+                    alt>
+                <area shape="rect" coords="148,173,226,251"
+                    href="https://pt.wikipedia.org/wiki/Quadrado" alt>
+                <area shape="rect" coords="265,174,380,253"
+                    href="https://pt.wikipedia.org/wiki/Ret%C3%A2ngulo" alt>
+                <area shape="poly" coords="458,173,500,250,415,252"
+                    href="https://brasilescola.uol.com.br/matematica/triangulo.htm#:~:text=O%20tri%C3%A2ngulo%20%C3%A9%20um%20pol%C3%ADgono,lados%20e%20os%20tr%C3%AAs%20%C3%A2ngulos."
+                    alt>
+            </map>
+        </main>
+        <footer>
+
+        </footer>
+
+    </body>
 </html>

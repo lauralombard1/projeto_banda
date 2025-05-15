@@ -1,0 +1,20 @@
+p{
+    font-weight: bolder;
+    background-color: darksalmon;
+}
+div{
+    color:brown;
+
+}
+div p{
+    background-color: rgb(230, 69, 131);
+}
+.backred {
+    background-color:crimson;
+}
+.centralizado{
+    text-align: center;
+}
+#caca{
+    background-color:hotpink;
+}
